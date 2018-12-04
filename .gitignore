@@ -1,0 +1,6 @@
+.idea
+__pycache__/
+*.pyc
+config/config.cfg
+remote/
+log/logfile.log

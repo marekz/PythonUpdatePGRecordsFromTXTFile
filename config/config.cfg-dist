@@ -1,0 +1,15 @@
+[local_settings]
+file_type = txt
+input_dir = /path/to/input/dir
+output_dir = /path/to/output/dir
+regular_expression = ^(([\-\+]{0,1}\d[\d\.\,]*[\.\,][\d\.\,]*\d+)\/(\d+)\s+(\d+)\s+(\w+)\s+)
+new_status = 06
+log_file = /home/marek/logfile.log
+
+[db_settings]
+host = localhost
+username = user
+password = pass
+port = 5432
+database = db 
+
